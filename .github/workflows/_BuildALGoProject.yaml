@@ -99,7 +99,7 @@ jobs:
           lfs: true
 
       - name: Read settings
-        uses: microsoft/AL-Go-Actions/ReadSettings@v7.2
+        uses: agolution/AL-Go-Actions/ReadSettings@v7.2
         with:
           shell: ${{ inputs.shell }}
           project: ${{ inputs.project }}
